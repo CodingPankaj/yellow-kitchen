@@ -1,0 +1,264 @@
+/* Tablet CSS */
+
+@media only screen and (max-width: 991px) {
+    :root {
+    --h1-font-size: 45px;
+    --h2-font-size: 30px;
+    --h3-font-size: 22px;
+    --line-height-64: 45px;
+    --line-height-32: 30px;
+    --line-height-24: 24px;
+    --line-height-20: 20px;
+    --line-height-16: 16px;
+    }
+    
+    /* Global Class Styling */
+    .mid {
+        padding: 50px 20px;
+    }
+
+    .heading-container>a {
+        padding: 12px 20px 8px 20px;
+    }
+
+    /* Header */
+    .header-mid {
+        padding: 15px 20px;
+    }
+
+    .header-mid>nav>ul>li {
+        display: none;
+    }
+
+    .header-mid>nav>ul>li:last-child  {
+        display: block;
+    }
+
+    .card:nth-child(3), .card:nth-child(4) {
+        display: none;
+    }
+
+    /* Hero */
+
+    .hero-mid {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .hero-content {
+        margin-top: 30px;
+    }
+
+    .hero-content h1 {
+        text-align: center;
+    }
+
+    .hero-content>div {
+        margin-top: 30px;
+        justify-content: center;
+    }
+
+    .hero-mid>figure {
+        margin: auto;
+        width: 60%;
+    }
+
+    .hero-mid>figure>img:first-child {
+        width: 100%;
+    }
+
+    .hero-mid>figure>img:last-child {
+        position: absolute;
+        bottom: 0;
+        right: -15px;
+    }
+    
+    .hero-mid>figure>img:nth-child(2) {
+        position: absolute;
+        bottom: 0%;
+        left: -15%;
+    }
+
+    .hero-mid-r2 {
+        margin-top: 30px;
+    }
+
+    /* Nearest */
+    .nearest>.mid {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .nearest-left>p {
+        margin: auto;
+        margin-top: 20px;
+        width: 65%;
+    }
+
+    /* Specialities */
+
+    .special>.mid>.slider {
+        flex-wrap: wrap;
+    }
+
+    .special>.mid>.slider>.arrow-left,
+    .special>.mid>.slider>.arrow-right {
+        display: none;
+    }
+
+    .card-small {
+        flex-basis: 20%;
+    }
+
+    /* Kitchen */
+
+    .kitchen>.mid {
+        padding: 120px 20px 100px 20px;
+    }
+
+    .items {
+        width: 30%;
+    }
+
+    .items>h4 {
+        width: 100px;
+        height: 100px;
+    }
+
+    /* Instagram */
+    .insta-container>figure {
+        flex-basis: 35%;
+    }
+
+    /* Footer */
+    .footer-r1 {
+        justify-content: space-around;
+    }
+
+    .footer-r1-col:first-child, .footer-r1-col:last-child {
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .footer-r1-col:last-child>ul>li:nth-child(2) {
+        width: 100%;
+    }
+
+    .appstore {
+        justify-content: center;
+    }
+
+    .footer-r1-col {
+        flex-basis: 30%;
+    }
+
+    .copyright>ul {
+        gap: 30px;
+    }
+
+    /* Offcanvas */
+    .offcanvas {
+        width: 60%;
+        right: -60%;
+    }
+}
+
+/* Custom Break Point */
+@media only screen and (max-width: 749px) {
+    .hero-icon-box {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+/* Mobile CSS */
+
+@media only screen and (max-width: 575px) {
+    :root {
+        --h1-font-size: 40px;
+        --h2-font-size: 28px;
+        --h3-font-size: 20px;
+        --line-height-64: 40px;
+        --line-height-32: 28px;
+        --line-height-24: 24px;
+        --line-height-20: 20px;
+        --line-height-16: 16px;
+    }
+
+    /* Global Class Styling */
+    .mid {
+        padding: 40px 20px;
+    }
+
+    .card:nth-child(2) {
+        display: none;
+    }
+
+    .header-mid {
+        padding: 10px 20px;
+    }
+
+    /* Hero */
+
+    .hero-mid>figure>img:last-child {
+        position: absolute;
+        bottom: -22%;
+        right: -30%;
+    }
+    
+    .hero-mid>figure>img:nth-child(2) {
+        position: absolute;
+        bottom: -30%;
+        left: -40%;
+    }
+
+    .hero-mid-r2 {
+        margin-top: 80px;
+    }
+
+    .hero-icon-box {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    /* Nearest */
+    .nearest-left>p {
+        width: 80%;
+    }
+
+    /* Specialities */
+
+    .card-small {
+        flex-basis: 35%;
+    }
+
+    /* Footer */
+    .footer-r1-col:first-child, .footer-r1-col:last-child {
+        flex-basis: 100%;
+    }
+
+    .footer-r2 {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .copyright>ul {
+        gap: 20px;
+    }
+
+    /* Offcanvas */
+    .offcanvas {
+        width: 90%;
+        right: -90%;
+    }
+}
+
+
+
+@media only screen and (max-width:399px) {
+    /* Nearest */
+    .nearest>.mid>form {
+        flex-direction: column;
+    }
+}
